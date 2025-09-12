@@ -27,6 +27,7 @@ module.exports.index = async (req, res) => {
   const allListings = await Listing.find(filter);
 
   res.render("listings/index", { allListings, selectedCategory: category, search });
+  
 };
 
 
