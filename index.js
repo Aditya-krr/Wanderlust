@@ -96,6 +96,6 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT,() =>{
-    console.log(`server is listening on http://localhost:${PORT}/listings`)
+    console.log(`server is listening on https://wanderlust-zeta-five.vercel.app`)
 });
 
