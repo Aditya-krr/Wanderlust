@@ -42,9 +42,7 @@ const sessionOptions = {
 
 
 
-// app.get("/",(req,res)=>{
-//     res.send("Hi, I am working fine")
-// });
+
 
 app.use(session(sessionOptions));
 app.use(flash());
@@ -96,6 +94,6 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT,() =>{
-    console.log(`server is listening on https://wanderlust-zeta-five.vercel.app`)
+    console.log(`server is listening on https://wanderlust-zeta-five.vercel.app/listings`)
 });
 
