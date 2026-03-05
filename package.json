@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "start":"node app.js"
-    "build":"echo build complete:
+    "build":"echo build complete"
   },
   "keywords": [],
   "author": "",
